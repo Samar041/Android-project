@@ -109,14 +109,7 @@ public class ComputersActivity extends AppCompatActivity {
                 Intent b=new Intent(ComputersActivity.this,RechercheActivity.class);
                 startActivity(b);
                 break;}
-            case R.id.it3:{
-                Intent b=new Intent(ComputersActivity.this,RechercheActivity.class);
-                startActivity(b);
-                break;}
-            case R.id.it4:{
-                Intent b=new Intent(ComputersActivity.this,RechercheActivity.class);
-                startActivity(b);
-                break;}
+
         }
         return super.onOptionsItemSelected(item);
     }
